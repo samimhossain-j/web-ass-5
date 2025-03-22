@@ -20,9 +20,10 @@ const dis= document.getElementById('discover')
             const p = document.createElement('p');
             p.innerText='You have completed the task Fix Mobile Button Issue at 1:26:53 AM'
             container.appendChild(p)
+            this.classList.add("blur-effect");
+                 this.disabled = true;
 
-            mobileButton.innerHTML='<button className="btn" disabled="disabled"></button>';
-
+           
 
           
 });
@@ -38,6 +39,8 @@ const dis= document.getElementById('discover')
             const p = document.createElement('p');
             p.innerText='You have completed the task Add Dark Mode at 9:26:53 pM'
             container.appendChild(p)
+            this.classList.add("blur-effect");
+                 this.disabled = true;
         })
     document.getElementById('btn-card3')
         .addEventListener('click', function(){
@@ -51,6 +54,8 @@ const dis= document.getElementById('discover')
             const p = document.createElement('p');
             p.innerText='You have completed the task Optimize Home page  at 7:20:53 AM'
             container.appendChild(p)
+            this.classList.add("blur-effect");
+                 this.disabled = true;
         })
     document.getElementById('btn-card4')
         .addEventListener('click', function(){
@@ -63,6 +68,8 @@ const dis= document.getElementById('discover')
             const p = document.createElement('p');
             p.innerText='You have completed the task Add new emoji 🤲 at 6:08:3 pM'
             container.appendChild(p)
+            this.classList.add("blur-effect");
+                 this.disabled = true;
         })
     document.getElementById('btn-card5')
         .addEventListener('click', function(){
@@ -75,6 +82,8 @@ const dis= document.getElementById('discover')
             const p = document.createElement('p');
             p.innerText='You have completed the task Integrate OpenAI API at 1:26:53 AM'
             container.appendChild(p)
+            this.classList.add("blur-effect");
+                 this.disabled = true;
         })
     document.getElementById('btn-card6')
         .addEventListener('click', function(){
@@ -88,6 +97,8 @@ const dis= document.getElementById('discover')
             const p = document.createElement('p');
             p.innerText='You have completed the task Improve Job searching at 1:26:53 AM'
             container.appendChild(p)
+            this.classList.add("blur-effect");
+                 this.disabled = true;
         })
 
         // clear history
@@ -122,5 +133,9 @@ const dis= document.getElementById('discover')
         .addEventListener('click',function(){
             document.getElementById('body').style.backgroundColor='blue';
         })
+
+
+
+        
            
 
